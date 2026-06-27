@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+
+<html lang="ja">
+  
+  
+  <head>
+    
+        
+    <meta charset="UTF-8">
+    
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        
+    <title>
+      AIX カラオケ - ポータル
+    </title>
+    
+        
+    <style>
+      
+              :root {
+                  --bg-color: #121214;
+                  --card-bg: #1e1e24;
+                  --text-color: #ffffff;
+                  --accent-monitor: #007bff;
+                  --accent-remote: #28a745;
+              }
+              body {
+                  font-family: 'Helvetica Neue', Arial, sans-serif;
+                  background-color: var(--bg-color);
+                  color: var(--text-color);
+                  margin: 0;
+                  padding: 20px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  min-height: 100vh;
+                  box-sizing: border-box;
+              }
+              h1 {
+                  font-size: 2.5rem;
+                  margin-bottom: 10px;
+                  text-align: center;
+                  text-transform: uppercase;
+                  letter-spacing: 2px;
+              }
+              .subtitle {
+                  font-size: 1.1rem;
+                  color: #aaa;
+                  margin-bottom: 40px;
+                  text-align: center;
+              }
+              .container {
+                  display: flex;
+                  gap: 30px;
+                  max-width: 900px;
+                  width: 100%;
+                  flex-wrap: wrap;
+                  justify-content: center;
+              }
+              .card {
+                  background-color: var(--card-bg);
+                  border-radius: 16px;
+                  padding: 30px;
+                  flex: 1;
+                  min-width: 280px;
+                  text-align: center;
+                  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+                  transition: transform 0.2s, box-shadow 0.2s;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: space-between;
+              }
+              .card:hover {
+                  transform: translateY(-5px);
+                  box-shadow: 0 12px 32px rgba(0,0,0,0.4);
+              }
+              .card h2 {
+                  font-size: 1.8rem;
+                  margin-top: 0;
+                  margin-bottom: 15px;
+              }
+              .card p {
+                  color: #ccc;
+                  font-size: 1rem;
+                  line-height: 1.5;
+                  margin-bottom: 30px;
+                  min-height: 45px;
+              }
+              .btn {
+                  display: block;
+                  text-decoration: none;
+                  color: #fff;
+                  padding: 15px 20px;
+                  border-radius: 8px;
+                  font-weight: bold;
+                  font-size: 1.2rem;
+                  transition: background-color 0.2s;
+              }
+              .btn-monitor {
+                  background-color: var(--accent-monitor);
+              }
+              .btn-monitor:hover {
+                  background-color: #0056b3;
+              }
+              .btn-remote {
+                  background-color: var(--accent-remote);
+              }
+              .btn-remote:hover {
+                  background-color: #1e7e34;
+              }
+              @media (max-width: 600px) {
+                  h1 { font-size: 2rem; }
+                  .container { gap: 20px; }
+                  .card { padding: 20px; }
+              }
+          
+    </style>
+    
+    
+  </head>
+  
+  
+  <body>
+    
+    
+        
+    <h1>
+      AIX KARAOKE SYSTEM
+    </h1>
+    
+        
+    <div class="subtitle">
+      接続するデバイスに合わせて選択してください
+    </div>
+    
+    
+        
+    <div class="container">
+      
+              
+      <!-- PC・テレビモニター側 -->
+      
+              
+      <div class="card">
+        
+                    
+        <div>
+          
+                          
+          <h2>
+            ① PCメインモニター
+          </h2>
+          
+                          
+          <p>
+            テレビやPCの大画面で開きます。
+            <br>
+            接続IDが表示される待機画面です。
+          </p>
+          
+                      
+        </div>
+        
+                    
+        <a href="https://menmeeee.github.io/gamen----/" class="btn btn-monitor" target="_blank" rel="noopener noreferrer">
+          モニターを開く
+        </a>
+        
+                
+      </div>
+      
+      
+              
+      <!-- タブレット・スマホリモコン側 -->
+      
+              
+      <div class="card">
+        
+                    
+        <div>
+          
+                          
+          <h2>
+            ② キョクナビ
+          </h2>
+          
+                          
+          <p>
+            手元のスマホやタブレットで開きます。
+            <br>
+            曲の検索や予約を行うリモコン画面です。
+          </p>
+          
+                      
+        </div>
+        
+                    
+        <a href="https://menmeeee.github.io/-/" class="btn btn-remote" target="_blank" rel="noopener noreferrer">
+          リモコンを開く
+        </a>
+        
+                
+      </div>
+      
+          
+    </div>
+    
+    
+    
+  </body>
+  
+  
+</html>
